@@ -226,65 +226,10 @@ namespace AVLTree
         public double AverageDepth() => isLeaf() ? 0 : TotalDepth() / (double)size;
     }
 
-    static class IntBinarySearchTree
-    {
-        public static int Sum(this BST<int> tree)
-            => tree.InOrder().Sum();
-
-        public static BST<int> CopyTreeAndAddOne(this BST<int> tree)
-        {
-            BST<int> temp = new BST<int>();
-            foreach (int number in tree.PreOrder().Select(n => n + 1).ToList())
-                temp.Add(number);
-            return temp;
-        }
-
-        public static int Um(this BST<int> tree, int a)
-         => tree.Sum() * a;
-    }
-
     class Program
     {
-        static BST<int> CreateTree()
+         static void Main(string[] args)
         {
-            int[] insert = new int[] { 10, 5, 3, 8, 6, 14, 12, 17 };
-            BST<int> tree = new BST<int>();
-            Array.ForEach(insert, i => tree.Add(i));
-            return tree;
-        }
-
-        static void Main(string[] args)
-        {
-            BST<int> tree = CreateTree();
-            WriteLine(tree.Um(2));
-            //BST<int> binary = tree.CopyTreeAndAddOne();
-            //binary.Print();
-            //BST<int> bst = new BST<int>();
-            //bst.Print();
-            //bst.Add(5);
-            //WriteLine();
-            //bst.Print();
-            //bst.Add(3);
-            //WriteLine();
-            //bst.Print();
-            //bst.Add(7);
-            //WriteLine();
-            //bst.Print();
-            //bst.Add(13);
-            //WriteLine();
-            //bst.Print();
-            //bst.Add(1);
-            //WriteLine();
-            //bst.Print();
-            //bst.Add(0);
-            //WriteLine();
-            //bst.Print();
-            //bst.Add(-5);
-            //WriteLine();
-            //bst.Print();
-            //WriteLine(bst.Contains(3));
-            //WriteLine(bst.Contains(100));
-            //WriteLine();
         }
     }
 }
