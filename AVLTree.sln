@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVLTree", "AVLTree\AVLTree.csproj", "{55EF537C-AA23-4E88-B57B-A3700AF5BBD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{BC618FF9-3CF3-41B8-B5B4-3E303768B31C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55EF537C-AA23-4E88-B57B-A3700AF5BBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EF537C-AA23-4E88-B57B-A3700AF5BBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EF537C-AA23-4E88-B57B-A3700AF5BBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EF537C-AA23-4E88-B57B-A3700AF5BBD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC618FF9-3CF3-41B8-B5B4-3E303768B31C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC618FF9-3CF3-41B8-B5B4-3E303768B31C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC618FF9-3CF3-41B8-B5B4-3E303768B31C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC618FF9-3CF3-41B8-B5B4-3E303768B31C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35EACDEC-8DC6-4DAE-A961-0ABE080B1CC2}
+	EndGlobalSection
+EndGlobal
