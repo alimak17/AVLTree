@@ -138,6 +138,6 @@ namespace Tests
                 CollectionAssert.AreEqual(inorder, tree.InOrder());
                 Assert.AreEqual(inorder.Count, tree.size);
             }
-        }
+        } 
     }
 }
